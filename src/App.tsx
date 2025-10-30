@@ -38,7 +38,7 @@ const App = () => (
                   path="/oil-price" 
                   element={
                     <>
-                      <DashboardHeader title="Oil Price Volatility" />
+                      <DashboardHeader title="Oil Price changes" />
                       <main className="flex-1 p-6">
                         <OilPrice />
                       </main>
